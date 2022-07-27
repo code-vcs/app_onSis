@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="barra">
+        <i class="bi bi-arrows-move"></i>
+    </div>
+    <h1>CRIPTON</h1>
+    <section>
+        <div>
+            <label for="nome">Url: </label><br>
+            <input type="search" id="ur" placeholder="Entre com a URL.....">
+            <!-- <label for="">Dê um Nome:</label><br>
+            <input type="search" id="nome_download" placeholder="Ex: meu_video_legal"> -->
+            <br><br>
+            <label for="formato">Formato: </label>
+            <br>
+            <select name="formato" id="formato">
+                <option value=".mp4">MP4</option>
+                <option value=".webm">WEBM</option>
+            </select>
+            <br><hr>
+            <div class="container-bt">
+                <button class="btn btn-danger bi bi-download" id="btDownload">&nbsp;&nbsp;&nbsp;&nbsp;Download</button>
+            </div>
+        </div>
+    </section>
+    <br>
+   <h3 class="bi bi-clock-history"> Historico</h3>
+    <main>
+        <div class="historico-video">
+            <!-- <span class="bi bi-clock-history"></span>&nbsp;&nbsp;<img src="./img/ico/file.png" width="50" alt=""> -->
+        </div>
+    </main>
+
+
+    <script src="./node_modules/bootstrap/js/dist/min"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

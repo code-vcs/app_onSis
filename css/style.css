@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+body{
+    background-color: rgb(18, 18, 18);
+}
+a{
+    color: white;
+}
+div.barra{
+    -webkit-app-region:drag;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    font-family: 'Iceberg', cursive;
+    color: white;
+    text-align: center;
+}
+label{
+    font-family: 'Iceberg', cursive;
+    font-size: 15pt;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+}
+input{
+    outline: none;
+    width: 90%;
+    height: 34px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color:rgb(0, 227, 231);
+    background-color: black;
+}
+span{
+    color: wheat;
+}
+select{
+    outline: none;
+}
+button#btDownload{
+    width: 25%;
+    font-size: 15pt;
+    text-align: center;
+    display: flex;
+}
+input#nome_download{
+    width: 60%;
+}
+i.bi-arrows-move{
+    font-size: 15pt;
+    margin: 5px;
+    background-color: black;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+section div{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    background:linear-gradient(rgb(58, 58, 58),rgb(170, 170, 170),black);
+    box-shadow: 1px 2px 3px rgb(26, 26, 26);
+}
+hr{
+    color: rgb(255, 255, 255);
+}
+div.container-bt{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    background: transparent;
+}
+h3{
+    font-size: 14pt;
+    font-family: 'Iceberg', cursive;
+    color: white;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+main div{
+    overflow-y: auto;
+    width: 85%;
+    height: 13rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0 auto;
+    border-radius: 12px;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(+200deg,yellow,red,green,purple,orange,rgb(54, 141, 255))+1;
+    background:linear-gradient(+20deg,rgb(32, 31, 31),rgb(37, 37, 37),black);
+    box-shadow: 1px 2px 5px rgb(0, 0, 0);
+}
+
+video{
+    width: 210px;
+    margin: 10px;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "app_onsis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pro:windows": "electron-builder --windows",
+    "dev:windows":"electron-builder --windows --dir",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.8",
+    "electron-builder": "^23.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "bootstrap-icons": "^1.8.3",
+    "electron-reload": "^2.0.0-alpha.1",
+    "ytdl-core": "^4.11.0"
+  }
+}
